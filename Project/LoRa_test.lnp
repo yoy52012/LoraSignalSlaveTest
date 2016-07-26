@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_md.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+".\stm32f10x_tim.o"
+".\stm32f10x_usart.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_spi.o"
+".\main.o"
+".\sx1272-loramisc.o"
+".\sx1276.o"
+".\sx1276-fskmisc.o"
+".\sx1276-hal.o"
+--nodebug --strict --scatter ".\LoRa_test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LoRa_test.map" -o .\LoRa_test.axf

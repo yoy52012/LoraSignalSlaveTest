@@ -1,0 +1,14 @@
+Dependencies for Project 'LoRa_test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x51C7AF80)(--cpu Cortex-M3 -g --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (..\Libraries\CMSIS\core_cm3.c)(0x4C0C587E)()
+F (..\Libraries\CMSIS\system_stm32f10x.c)(0x4D783CB0)()
+F (..\Libraries\FWLib\src\stm32f10x_tim.c)(0x4D783BB4)()
+F (..\Libraries\FWLib\src\stm32f10x_usart.c)(0x4D783BB4)()
+F (..\Libraries\FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)()
+F (..\Libraries\FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)()
+F (..\Libraries\FWLib\src\stm32f10x_spi.c)(0x4D783BB4)()
+F (..\Source\main.c)(0x56D6822E)()
+F (..\Source\sx1272-LoRaMisc.c)(0x56D6832A)()
+F (..\Source\sx1276.c)(0x56D6832A)()
+F (..\Source\sx1276-FskMisc.c)(0x56D6847E)()
+F (..\Source\sx1276-Hal.c)(0x56D6832B)()
